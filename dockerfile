@@ -39,7 +39,7 @@ RUN chmod +rwx /server/bin/standalone.sh
 RUN chmod +rwx /server/bin/add-user.sh
 RUN chmod +rwx /server/bin/add-user-keycloak.sh
 EXPOSE 8080
-#EXPOSE 8443
+EXPOSE 8443
 
 
 #ENTRYPOINT [ "/bin/standalone.sh" ]
